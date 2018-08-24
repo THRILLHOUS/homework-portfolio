@@ -87,6 +87,12 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+@font-face {
+  font-family: "Open Sans"
+  src: url(https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans);
+}
 
-
-
+h1 {
+  font-weight: Extrabold;
+  font-size: 24px;
+}
