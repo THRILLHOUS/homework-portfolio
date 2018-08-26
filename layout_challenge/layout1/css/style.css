@@ -1,27 +1,33 @@
 .boxes {
-  border: black solid 5px;
+  border: black solid 2px;
   background-color: grey
 }
 
 .header .footer {
-  height: 100px;
+  height: 500px;
   width: 100%;
   margin: 20px;
 }
 
+.header {
+  height: 100px;
+}
+
 .section {
   height: 500px;
-  width: 59%;
+  width: 69%;
   float: left;
-  margin: 20px 10px;
+  margin: 20px 5px;
 }
 
 .aside {
   height: 500px;
-  width: 39%;
+  width: 29%;
   float: right;
+  margin: 20px 5px;
 }
 
 .footer {
   clear: both;
+  height: 100px;
 }
