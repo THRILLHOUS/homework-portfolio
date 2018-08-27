@@ -1,0 +1,35 @@
+.boxes {
+  background-color: grey;
+  border: 1px solid black;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  bottom margin: 10px;
+}
+
+.aside-left {
+  height: 500px;
+  width: 20%;
+  float: left;
+}
+
+.section {
+  height: 500px;
+  width: 40%;
+  margin: 10px auto 10px auto;
+  clear: both;
+}
+
+.aside-right {
+  height: 500px;
+  width: 20%;
+  float: right;
+  margin: 10px auto 10px 10px;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+}
