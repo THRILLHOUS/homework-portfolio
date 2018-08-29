@@ -87,12 +87,37 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
-@font-face {
-  font-family: "Open Sans"
-  src: url(https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans);
+h1 h2 h3 p {
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-  font-weight: Extrabold;
+  font-weight: 900;
   font-size: 24px;
+  color: #ffff;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 24px;
+  color: #ffff;
+}
+
+#get-it {
+  font-weight: 900;
+  font-size: 14px;
+  border: 5px;
+}
+
+#benefits {
+  background-color: #f0efef;
+}
+
+h3 {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#quote {
+  color: #ffff;
 }
