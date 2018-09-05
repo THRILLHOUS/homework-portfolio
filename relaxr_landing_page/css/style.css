@@ -1,7 +1,9 @@
+body {
+  background-color: #606161;
+}
+
 .container {
-  max-width: 100%;
-  margin: auto;
-  float: none;
+  max-width: 97%;
 }
 
 header {
@@ -15,20 +17,27 @@ header {
 }
 
 .logo {
-font-weight: 900;
+font-weight: 800;
 color: #fff;
 font-size: 48px;
+margin-top: 30px;
 }
 
-.tag-line {
+h2 {
   margin-top: 60px;
-  margin-left: 26%;
   font-weight: bolder;
   color: #fff;
 }
 
-h1 h2 h3 p {
+h1 h2 h3 p .btn {
   font-family: 'Open Sans', sans-serif;
+}
+
+.btn-warning {
+  margin: 188px 528px;
+font-weight: 800;
+width: 280px;
+font-size: 28px;
 }
 
 .benefits {
@@ -36,5 +45,15 @@ h1 h2 h3 p {
 }
 
 .quote {
+  background-image: url(../images/testimonial_bg.jpg);
+}
+
+blockquote {
+  font-size: 36px;
+  font-weight: 300;
   color: #fff;
+}
+
+.sign-up {
+  background-color: #f9e42e;
 }
