@@ -3,25 +3,25 @@ body {
   font-family: Source Sans Pro, sans-serif;
 }
 
-h3{
-  text-align: center;  
+h3 {
+  text-align: center;
 }
 
-.boxes{
+.boxes {
   width: 200px;
   height: 200px;
   margin: 15px;
 }
 
-#purple-box{
+#purple-box {
   background: purple;
 }
 
-#blue-box{
+#blue-box {
   background: blue;
 }
 
-#red-box{
+#red-box {
   background: red;
 }
 
@@ -35,7 +35,7 @@ h3{
   text-align: center;
 }
 .actions p {
-  
+
   display: inline-block;
   border: 2px solid black;
   padding: 15px 30px;
