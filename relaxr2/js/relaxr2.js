@@ -1,8 +1,27 @@
-// Prevent a form Submission
+$('.readmore, .readless, .learnmore').click(function(event) {
+  event.preventDefault();
+})
 
-// Delay js from loading until DOM has loaded
+$(document).ready(function() {
+  $('.readmore').click(function() {
+    $('#show-this-on-click').slideDown(function() {
+      $('.readmore').hide(function() {
+        $('.readless').show();
+      });
+    });
+  })
+})
 
-// Select the appropriate CSS selector upon a user's click
+$('.readless').click(function() {
+  $('#show-this-on-click').slideUp(function() {
+    $('.readless').hide(function() {
+      $('.readmore').show();
+    })
+  })
+})
 
-// "Read More" on primary column
-// Have <p> slide down with "Read Less" link
+$('.learnmore').click(function() {
+  $('#learnmoretext').slideDown(function() {
+    $('.learnmore').hide();
+  });
+})
