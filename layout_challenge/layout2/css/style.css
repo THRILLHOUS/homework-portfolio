@@ -13,20 +13,22 @@
   height: 500px;
   width: 15%;
   float: left;
+  margin: 5px 5px 5px 0px ;
 }
 
 .section {
   height: 500px;
-  width: 40%;
-  margin: 10px 10px 10px 10px;
+  width: 68.35%;
+  margin: 5px;
   float: inherit;
+  display: inline-block;
 }
 
 .aside-right {
   height: 500px;
   width: 15%;
   float: right;
-  margin: 10px auto 10px 10px;
+  margin: 5px 0px 5px 5px;
 }
 
 .footer {
