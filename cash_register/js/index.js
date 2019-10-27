@@ -13,11 +13,12 @@ function enter() {
   // read the user input
   var entry = $('#newEntry').val();
   // // parse the user input string to a number
+  entry = parseFloat(entry);
   // entry = parseFloat(entry);
   // // clear the user input
-  // $('#newEntry').val(' ');
+  $('#newEntry').val('#total');
   // // add the user input to the total
-  // // total = entry + total;
+  total = entry + total;
   // display the user input
   // $('#entries').append('<tr><td></td><td>' + total + '</td></tr>');
   // $('#total').html(total);
